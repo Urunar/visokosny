@@ -1,5 +1,5 @@
 def is_leap_year(year):
-    """comment test git_version_2"""
+    """comment test git_version_3"""
     """Определяет, является ли год високосным."""
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
         return True
