@@ -6,11 +6,15 @@ def is_leap_year(year):
         return False
 
 def main():
-    year = int(input("Введите год: "))
-    if is_leap_year(year):
-        print(f"{year} является високосным годом.")
-    else:
-        print(f"{year} не является високосным годом.")
+    while 1 == 1:
+        val = input("Введите год: ")
+        if val == "exit":
+            exit(0)
+        year = int(val)
+        if is_leap_year(year):
+            print(f"{year} является високосным годом.")
+        else:
+            print(f"{year} не является високосным годом.")
 
 if __name__ == "__main__":
     main()
